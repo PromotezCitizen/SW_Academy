@@ -13,7 +13,7 @@ void m_strcpy(char* dest, const char* origin) {
     dest[i] = '\0';
 }
 
-// strcpy ±¸Çö
+// strcpy êµ¬í˜„
 int main() {
     char origin[] = "testing msg";
     char dest[100];

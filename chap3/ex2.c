@@ -3,7 +3,7 @@
 
 #define MAX_ARR 20
 
-// °¡Àå ±ä ¿À¸§Â÷¼ø ¼ıÀÚ¿­ Ãâ·Â
+// ê°€ì¥ ê¸´ ì˜¤ë¦„ì°¨ìˆœ ìˆ«ìì—´ ì¶œë ¥
 int main() {
     int inputed[MAX_ARR];
     int start_pos[MAX_ARR];

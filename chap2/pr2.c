@@ -23,7 +23,7 @@ int main() {
     int calc = 0;
     for (int i = 0; i < MAX_ARR; i++) scanf("%d", &a[i]);
 
-    // 1. triple Ã£ÀÚ
+    // 1. triple ì°¾ìž
     for (int z = 0; z < 2; z++) {
         qsort(a, MAX_ARR, sizeof(int), cmpfunc_i);
         int pos = 0;
@@ -45,13 +45,13 @@ int main() {
         }
     }
 
-    // 2. run Ã£ÀÚ
+    // 2. run ì°¾ìž
     for (int z = calc; z < 2; z++) {
         qsort(a, MAX_ARR, sizeof(int), cmpfunc_i);
         for (int i = 0; i < MAX_ARR-2; i++){
             for (int j = i+1; j < MAX_ARR-1; j++) {
                 for (int k = j+1; k < MAX_ARR; k++) {
-                    if (abs(a[i] - a[j]) * abs(a[j] - a[k]) == 1) { // i¿Í jÀÇ Â÷ÀÌ°¡ 1ÀÌ°í j¿Í kÀÇ Â÷ÀÌ°¡ 1ÀÏ¶§
+                    if (abs(a[i] - a[j]) * abs(a[j] - a[k]) == 1) { // iì™€ jì˜ ì°¨ì´ê°€ 1ì´ê³  jì™€ kì˜ ì°¨ì´ê°€ 1ì¼ë•Œ
                         a[i] = a[i] * 2 + 1000;
                         a[j] = a[j] * 2 + 1000;
                         a[k] = a[k] * 2 + 1000;

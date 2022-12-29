@@ -16,7 +16,7 @@ int dequeue() {
     return queue[start++];
 }
 
-// Å¥ ±¸Çö
+// í êµ¬í˜„
 int main() {
     enqueue(1);
     enqueue(2);

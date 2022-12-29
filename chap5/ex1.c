@@ -3,7 +3,7 @@
 
 #define MAX_ROW 5
 
-// ÇÑÁÙ ÃÖ´ë°ª
+// í•œì¤„ ìµœëŒ€ê°’
 int main() {
     int a[MAX_ROW][MAX_ROW];
     int result = 0, temp1, temp2;

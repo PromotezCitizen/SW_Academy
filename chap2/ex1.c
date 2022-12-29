@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-// ¼ıÀÚÀÇ °¢ ÀÚ¸® ÇÕ
+// ìˆ«ìì˜ ê° ìë¦¬ í•©
 int main() {
     int num;
     int result;
@@ -11,5 +11,5 @@ int main() {
         num /= 10;
     }
 
-    printf("°á°ú : %d\n", result);
+    printf("ê²°ê³¼ : %d\n", result);
 }

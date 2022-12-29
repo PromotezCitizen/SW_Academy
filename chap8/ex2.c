@@ -11,7 +11,7 @@ void m_itoa(char* dest, int num) {
     }
 }
 
-// itoa ±¸Çö
+// itoa êµ¬í˜„
 int main() {
     char dest[100];
     int num;

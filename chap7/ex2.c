@@ -11,7 +11,7 @@ pq queue[MAX_QUEUE];
 int idx = 0;
 
 
-// ¿ì¼±¼øÀ§ Å¥ ±¸Çö
+// ìš°ì„ ìˆœìœ„ í êµ¬í˜„
 
 int main() {
 

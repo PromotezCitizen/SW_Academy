@@ -20,7 +20,7 @@ int binarySearch(int left, int right, int key, int* a) {
     }
 }
 
-// ÀÌÁø°Ë»öÀ» ÇÏ¿© Å°°ªÀÇ ¿©ºÎ Ãâ·Â
+// ì´ì§„ê²€ìƒ‰ì„ í•˜ì—¬ í‚¤ê°’ì˜ ì—¬ë¶€ ì¶œë ¥
 int main() {
     int a[MAX_ARR], key;
 

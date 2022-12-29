@@ -3,7 +3,7 @@
 
 #define MAX_ROW 5
 
-// 3 * 3 �ִ밪 
+// 3 * 3 최대값 
 
 int main() {
     int a[MAX_ROW][MAX_ROW];

@@ -15,7 +15,7 @@ void splitStr(const char* str) {
     while(str[idx++] != '\0') alpha[str[idx-1]-'a']++;
 }
 
-// ¹®ÀÚ¿­ 2Â÷¿ø ¹è¿­¿¡ ³ª¼±ÇüÀ¸·Î Á¤·Ä
+// è‡¾ëª„ì˜„ï¿½ë¿´ 2ï§¡â‘¥ì è«›ê³—ë¿´ï¿½ë¿‰ ï¿½êµ¹ï¿½ê½‘ï¿½ì‚ï¿½ì‘æ¿¡ï¿½ ï¿½ì ™ï¿½ì ¹
 int main() {
     for (int i = 0; i < MAX_STR; i++) scanf("%s", inputed[i]);
 

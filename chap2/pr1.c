@@ -1,7 +1,7 @@
 #include <stdio.h>
 #define MAX_ARR 1000
 
-// 1 ~ 1000ÀÇ ¹üÀ§¿¡¼­ 1ÀÇ °³¼ö´Â?
+// 1 ~ 1000ì˜ ë²”ìœ„ì—ì„œ 1ì˜ ê°œìˆ˜ëŠ”?
 int main() {
     int a[MAX_ARR] = {0,};
     int result = 0;
@@ -14,5 +14,5 @@ int main() {
         }
     }
 
-    printf("°á°ú : %d°³\n", result);
+    printf("ê²°ê³¼ : %dê°œ\n", result);
 }

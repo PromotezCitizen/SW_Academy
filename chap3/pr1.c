@@ -2,7 +2,7 @@
 
 #define MAX_ARR 20
 
-// ºÀ¿ì¸® Ã£±â
+// ë´‰ìš°ë¦¬ ì°¾ê¸°
 int main() {
     int inputed[MAX_ARR];
     int result = 0;

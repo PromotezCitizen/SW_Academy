@@ -7,7 +7,7 @@ int abs(int num) {
     return num < 0 ? -num : num;
 }
 
-// °è°î Ã¤¿ì±â
+// ê³„ê³¡ ì±„ìš°ê¸°
 int main() {
     int inputed[MAX_ARR];
     int top[MAX_ARR/2]; // index

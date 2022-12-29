@@ -10,7 +10,7 @@ void printResult(const int* a) {
     }
 }
 
-// ¾çÀÇ Á¤¼ö 20°³ ÀÔ·ÂµÉ¶§ ÃÖÃÊÀÇ ¿À¸§Â÷¼ø ¼ıÀÚ¿­ Ãâ·Â
+// ì–‘ì˜ ì •ìˆ˜ 20ê°œ ì…ë ¥ë ë•Œ ìµœì´ˆì˜ ì˜¤ë¦„ì°¨ìˆœ ìˆ«ìì—´ ì¶œë ¥
 int main() {
     int inputed[MAX_ARR];
     int result[MAX_ARR];

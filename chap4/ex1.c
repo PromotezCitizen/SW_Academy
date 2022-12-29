@@ -4,7 +4,7 @@
 #define MAX_ARR 10
 #define SWAP(x, y, z) ((z) = (x), (x) = (y), (y) = (z))
 
-// selection sort ÀÌ¿ëÇÏ¿© ¹è¿­ Á¤·Ä
+// selection sort ì´ìš©í•˜ì—¬ ë°°ì—´ ì •ë ¬
 int main() {
     int a[MAX_ARR];
     int pos, temp;

@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <math.h>
 
-// ÀÚ±â º¹Á¦¼öÀÎÁö ÆÇº°
-// 5^2 ÀÏ ¶§ ¸Ç µŞÀÚ¸®¿¡ 5°¡ ÀÖ´Â°¡?
-// 76^2 ÀÏ ¶§ ¸Ç µŞÀÚ¸®¿¡ 76ÀÌ ÀÖ´Â°¡?
+// ìê¸°ë³µì œìˆ˜ ì°¾ê¸°
+// 5^2 = 25 => 25 % 10 == 5
+// 76^2 = 5776 => 5776 % 100 == 76
 int main() {
     int num;
     int num_pow;
@@ -11,6 +11,6 @@ int main() {
     scanf("%d", &num);
     num_pow = (int)pow(num, 2);
 
-    if (num_pow % (int)pow(10, (int)log10(num) + 1) == num) printf("ÀÚ±âº¹Á¦¼ö ¸ÂÀ½ pow : %d, num : %d\n", num_pow, num);
-    else printf("ÀÚ±âº¹Á¦¼ö ¾Æ´Ô pow : %d, num : %d\n", num_pow, num);
+    if (num_pow % (int)pow(10, (int)log10(num) + 1) == num) printf("ìê¸°ë³µì œìˆ˜ì„ pow : %d, num : %d\n", num_pow, num);
+    else printf("ìê¸°ë³µì œìˆ˜ ì•„ë‹˜ pow : %d, num : %d\n", num_pow, num);
 }
