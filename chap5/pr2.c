@@ -5,6 +5,7 @@
 #define FALSE 0
 #define TRUE 1
 
+// 갖힌수의 합
 int main() {
     int a[MAX_ROW][MAX_ROW];
     int result[(MAX_ROW-2) * (MAX_ROW-2)];

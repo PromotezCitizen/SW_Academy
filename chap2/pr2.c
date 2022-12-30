@@ -18,6 +18,9 @@ void printArr(const int* a) {
     printf("\n");
 }
 
+// baby-gin 게임
+// 카드가 run이거나 트리플인 2쌍
+
 int main() {
     int a[MAX_ARR];
     int calc = 0;
