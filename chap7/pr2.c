@@ -25,11 +25,25 @@ int main() {
     printf("이동 횟수 입력 >> ");
     scanf("%d", &movebook);
 
-    for (int move = 0; move < movebook; move++) {
-        
+    qsort(shelf, MAX_BOOK, sizeof(int), cmpfunc_d);
+    while (cnt != movebook) {
+
+        for (tomove = 0; tomove < MAX_BOOK; tomove++) {
+            if (shelf[tomove] != MAX_BOOK) break;
+        }
+
+        for (frommove = MAX_BOOK-1; frommove > -1; frommove--) {
+            if (shelf[frommove] != 0) break;
+        }
+
+        while(1) {
+            shelf[tomove]++; shelf[frommove]--;
+            if (++cnt == movebook) break;
+            if (shelf[tomove] == MAX_BOOK) break;
+            if (shelf[frommove] == 0) break;
+        }
     }
-
-
+    
     // 0인 선반 개수 세기
     qsort(shelf, MAX_BOOK, sizeof(int), cmpfunc);
 
