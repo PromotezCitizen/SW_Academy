@@ -25,15 +25,6 @@ void enqueuePriorityQueue(int data) {
     pq *t1, *t2;
     t1 = head; t2 = head->next;
 
-    if (t2 == NULL) {
-        t1->next = malloc(sizeof(pq));
-        t1 = t1->next;
-        t1->priotity = MAX_PROP - data;
-        t1->data = data;
-        t1->next = NULL;
-        return;
-    }
-
     while(t2 != NULL && t2->priotity > MAX_PROP - data) {
         t1 = t1->next;
         t2 = t2->next;
